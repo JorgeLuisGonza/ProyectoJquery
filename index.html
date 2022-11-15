@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <!-- -----------slider------------>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <!-- -----importamos jquery--- -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <title>Proyecto con Jquery</title>
+</head>
+<body>
+<div class="global-contenedor">
+    <!-- codigo cabecera  -->
+    <header>
+        <div class="menu-celular">
+        <div class="logo">
+            <h1>Practicando Js</h1>
+        </div>
+        <div class="icono">
+            <button class="boton">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <line x1="4" y1="6" x2="20" y2="6" />
+                <line x1="4" y1="12" x2="20" y2="12" />
+                <line x1="4" y1="18" x2="20" y2="18" />
+              </svg>
+            </button>
+        </div>
+        </div>
+        <nav class="menu">
+            <ul class="navegacion">
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">RELOJ</a></li>
+                <li><a href="#">SOBRE MI</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- slider -->
+    <div class="bxslider">
+        <div><img src="img/slider1.jpg" title="Freelancer developer"></div>
+        <div><img src="img/slider2.jpg" title="Programacion Basica"></div>
+        <div><img src="img/slider3.jpg" title="Codigos Backend"></div>
+      </div>
+    <!-- contenido -->
+    <section id="content">
+        <div class="articulos">
+            <article class="post">
+                <h2>Titulo del Articulo</h2>
+                <span>Fecha Publicacion</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, tenetur tempora facere minus voluptates nihil, debitis alias perferendis possimus deleniti dolore, iste consequatur autem dolores vel nam! Sequi, ea tenetur.
+                Error vero magnam eos iure illum dicta sunt officiis enim, non velit vel ab tenetur, minima placeat deserunt voluptate maiores iusto voluptatibus asperiores soluta? Nostrum voluptatibus dolorem voluptatum dignissimos ducimus?
+                Quae modi recusandae, nesciunt, ad sunt voluptatibus beatae consectetur repellendus voluptatem odio ab, asperiores deleniti accusamus quos perferendis dignissimos! Necessitatibus, cum vitae ex consectetur quae omnis fugiat qui commodi consequatur.</p>
+                <button class="leer_mas">Leer Mas</button>
+            </article>
+            <article class="post">
+                <h2>Titulo del Articulo</h2>
+                <span>Fecha Publicacion</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, tenetur tempora facere minus voluptates nihil, debitis alias perferendis possimus deleniti dolore, iste consequatur autem dolores vel nam! Sequi, ea tenetur.
+                Error vero magnam eos iure illum dicta sunt officiis enim, non velit vel ab tenetur, minima placeat deserunt voluptate maiores iusto voluptatibus asperiores soluta? Nostrum voluptatibus dolorem voluptatum dignissimos ducimus?
+                Quae modi recusandae, nesciunt, ad sunt voluptatibus beatae consectetur repellendus voluptatem odio ab, asperiores deleniti accusamus quos perferendis dignissimos! Necessitatibus, cum vitae ex consectetur quae omnis fugiat qui commodi consequatur.</p>
+                <button class="leer_mas">Leer Mas</button>
+            </article>
+        </div>
+        <sidebar id="sidebar">
+            <div class="sobremi">
+                <div class="titulo"><h2>Sobre mi</h2></div>
+                <div class="imagen-mi"><img src="img/mi.jpg" alt="Programacion"></div>
+                <div class="texto-sobremi">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, dolorem enim. Officia nemo natus autem quibusdam voluptas velit nihil maiores molestias. Facere perspiciatis, aut vel minima tempora illo assumenda nobis!</div>
+            </div>
+            <div class="identificarse">
+                <fieldset title="Identificate">
+                    <legend class="titulo_form">Identificate</legend>
+                    <div class="inputs">
+                        <label for="nombre">Nombre: </label><input type="text" id="nombre" name="nombre">
+                        <label for="correo">Correo: </label><input type="text" id="correo" name="correo">
+                        <label for="contraseña">Contraseña: </label><input type="password" id="contraseña" name="contraseña">
+                    </div>
+                    <input class="ingresar" type="submit" value="Ingresar">
+                </fieldset>
+            </div>
+        </sidebar>
+    </section>
+
+</div>
+
+<footer class="piepagina">Curso de JavaScript &copy;</footer>
+    
+</body>
+<script src="js/main.js"></script>
+</html>
