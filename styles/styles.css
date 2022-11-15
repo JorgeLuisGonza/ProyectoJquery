@@ -209,6 +209,9 @@ nav{
 }
 @media(max-width:600px){
     .bx-wrapper, .bx-viewport{
-        height: 250px !important;
+        height: 230px !important;
     }
+}
+.inputs input{
+    width: 180px;
 }
