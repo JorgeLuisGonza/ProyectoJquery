@@ -215,3 +215,80 @@ nav{
 .inputs input{
     width: 180px;
 }
+
+/* ---------------Codigo para un slider funcional---------------------- */
+.descripcion{
+    position: relative;
+    left:120px;
+    top: -500px;
+
+}
+.titulo-anuncio{
+    font-size: 70px;
+    font-family: var(--fuente-principal);
+    font-weight: 300;
+    max-width: 500px;
+    cursor: pointer;
+}
+.boton-comprar{
+    border: none;
+    padding: 15px 38px;
+    background-color:  rgba(255, 255, 255, 0.673);
+    border-radius: 25px;
+}
+.btn-comprar{
+    margin-top: 0;
+    font-size: 17px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.boton-comprar:hover{
+    background-color: white;
+}
+.boton-detalles{
+    border: none;
+    padding: 15px 38px;
+    background-color: rgba(255, 255, 255, 0.673);
+    border-radius: 25px;
+}
+.btn-detalles{
+    margin-top: 0;
+    font-size: 17px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.boton-detalles:hover{
+    background-color: white;
+}
+
+/* ------------diseño responsivo para un slider funcional-------- */
+
+@media(max-width:800px){
+    .descripcion{
+        left:50px;
+        top: -160px;
+    
+    }
+    .titulo-anuncio{
+        font-size: 20px;
+        max-width: 150px;
+    }
+    .boton-comprar{
+        padding: 5px 18px;
+        border-radius: 25px;
+    }
+    .btn-comprar{
+        font-size: 10px;
+        font-weight: bold;
+        cursor:pointer;
+    }
+    .boton-detalles{
+        padding: 5px 18px;
+        border-radius: 25px;
+    }
+    .btn-detalles{
+        font-size: 10px;
+        font-weight: bold;
+        cursor:pointer;
+    }
+}
